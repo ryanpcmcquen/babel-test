@@ -5,6 +5,7 @@
         "@babel/plugin-proposal-optional-chaining": "7.x.x"
     },
     "scripts": {
-        "foo": "babel foo.js"
+        "foo": "babel foo.js",
+        "start": "npx babel index.js > transpiled.js && node transpiled.js"
     }
 }
